@@ -1,0 +1,17 @@
+.posts-list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.post-item {
+    width: 25%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.post-item:hover {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
